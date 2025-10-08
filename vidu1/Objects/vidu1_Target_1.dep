@@ -1,6 +1,297 @@
 Dependencies for Project 'vidu1', Target 'Target_1': (DO NOT MODIFY !)
 CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\src\main.c)(0x68E3D9D0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/main.o -MMD)
+F (.\src\main.c)(0x68E695D4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER-o ./objects/main.o -MMD)
+I (inc\stm32f4xx_hal.h)(0x6542556D)
+I (inc\stm32f4xx_hal_conf.h)(0x6542549C)
+I (inc\stm32f4xx_hal_rcc.h)(0x65425586)
+I (inc\stm32f4xx_hal_def.h)(0x6542556D)
+I (inc\stm32f4xx.h)(0x6542551C)
+I (inc\stm32f411xe.h)(0x6542551C)
+I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm4.h)(0x68E15839)
+I (inc\system_stm32f4xx.h)(0x6542551C)
+I (inc\Legacy\stm32_hal_legacy.h)(0x6542551E)
+I (inc\stm32f4xx_hal_rcc_ex.h)(0x65425586)
+I (inc\stm32f4xx_hal_exti.h)(0x65425566)
+I (inc\stm32f4xx_hal_gpio.h)(0x6542556F)
+I (inc\stm32f4xx_hal_gpio_ex.h)(0x6542556F)
+I (inc\stm32f4xx_hal_dma.h)(0x6542555D)
+I (inc\stm32f4xx_hal_dma_ex.h)(0x6542555D)
+I (inc\stm32f4xx_hal_cortex.h)(0x65425550)
+I (inc\stm32f4xx_hal_adc.h)(0x6542554A)
+I (inc\stm32f4xx_ll_adc.h)(0x6542554A)
+I (inc\stm32f4xx_hal_adc_ex.h)(0x6542554A)
+I (inc\stm32f4xx_hal_can.h)(0x6542554C)
+I (inc\stm32f4xx_hal_crc.h)(0x65425552)
+I (inc\stm32f4xx_hal_cryp.h)(0x65425554)
+I (inc\stm32f4xx_hal_dac.h)(0x65425556)
+I (inc\stm32f4xx_hal_dcmi.h)(0x65425559)
+I (inc\stm32f4xx_hal_eth.h)(0x65425563)
+I (inc\stm32f4xx_hal_flash.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ex.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ramfunc.h)(0x65425568)
+I (inc\stm32f4xx_hal_sram.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nor.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nand.h)(0x6542556A)
+I (inc\stm32f4xx_hal_pccard.h)(0x6542556A)
+I (inc\stm32f4xx_hal_hash.h)(0x65425571)
+I (inc\stm32f4xx_hal_i2c.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2c_ex.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2s.h)(0x65425596)
+I (inc\stm32f4xx_hal_i2s_ex.h)(0x65425596)
+I (inc\stm32f4xx_hal_iwdg.h)(0x65425579)
+I (inc\stm32f4xx_hal_pwr.h)(0x65425582)
+I (inc\stm32f4xx_hal_pwr_ex.h)(0x65425582)
+I (inc\stm32f4xx_hal_rng.h)(0x65425588)
+I (inc\stm32f4xx_hal_rtc.h)(0x6542558B)
+I (inc\stm32f4xx_hal_rtc_ex.h)(0x6542558B)
+I (inc\stm32f4xx_hal_sd.h)(0x65425590)
+I (inc\stm32f4xx_ll_sdmmc.h)(0x65425590)
+I (inc\stm32f4xx_hal_spi.h)(0x65425596)
+I (inc\stm32f4xx_hal_tim.h)(0x6542559B)
+I (inc\stm32f4xx_hal_tim_ex.h)(0x6542559B)
+I (inc\stm32f4xx_hal_uart.h)(0x654255A1)
+I (inc\stm32f4xx_hal_usart.h)(0x654255A3)
+I (inc\stm32f4xx_hal_irda.h)(0x65425577)
+I (inc\stm32f4xx_hal_smartcard.h)(0x65425592)
+I (inc\stm32f4xx_hal_wwdg.h)(0x654255AB)
+I (inc\stm32f4xx_hal_pcd.h)(0x654255A5)
+I (inc\stm32f4xx_ll_usb.h)(0x654255A5)
+I (inc\stm32f4xx_hal_pcd_ex.h)(0x654255A5)
+I (inc\stm32f4xx_hal_hcd.h)(0x654255A5)
+F (.\src\startup_stm32f411xe.s)(0x6542549C)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f411xe.o)
+F (.\src\system_stm32f4xx.c)(0x6542549C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER-o ./objects/system_stm32f4xx.o -MMD)
+I (inc\stm32f4xx.h)(0x6542551C)
+I (inc\stm32f411xe.h)(0x6542551C)
+I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm4.h)(0x68E15839)
+I (inc\system_stm32f4xx.h)(0x6542551C)
+I (inc\stm32f4xx_hal.h)(0x6542556D)
+I (inc\stm32f4xx_hal_conf.h)(0x6542549C)
+I (inc\stm32f4xx_hal_rcc.h)(0x65425586)
+I (inc\stm32f4xx_hal_def.h)(0x6542556D)
+I (inc\Legacy\stm32_hal_legacy.h)(0x6542551E)
+I (inc\stm32f4xx_hal_rcc_ex.h)(0x65425586)
+I (inc\stm32f4xx_hal_exti.h)(0x65425566)
+I (inc\stm32f4xx_hal_gpio.h)(0x6542556F)
+I (inc\stm32f4xx_hal_gpio_ex.h)(0x6542556F)
+I (inc\stm32f4xx_hal_dma.h)(0x6542555D)
+I (inc\stm32f4xx_hal_dma_ex.h)(0x6542555D)
+I (inc\stm32f4xx_hal_cortex.h)(0x65425550)
+I (inc\stm32f4xx_hal_adc.h)(0x6542554A)
+I (inc\stm32f4xx_ll_adc.h)(0x6542554A)
+I (inc\stm32f4xx_hal_adc_ex.h)(0x6542554A)
+I (inc\stm32f4xx_hal_can.h)(0x6542554C)
+I (inc\stm32f4xx_hal_crc.h)(0x65425552)
+I (inc\stm32f4xx_hal_cryp.h)(0x65425554)
+I (inc\stm32f4xx_hal_dac.h)(0x65425556)
+I (inc\stm32f4xx_hal_dcmi.h)(0x65425559)
+I (inc\stm32f4xx_hal_eth.h)(0x65425563)
+I (inc\stm32f4xx_hal_flash.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ex.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ramfunc.h)(0x65425568)
+I (inc\stm32f4xx_hal_sram.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nor.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nand.h)(0x6542556A)
+I (inc\stm32f4xx_hal_pccard.h)(0x6542556A)
+I (inc\stm32f4xx_hal_hash.h)(0x65425571)
+I (inc\stm32f4xx_hal_i2c.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2c_ex.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2s.h)(0x65425596)
+I (inc\stm32f4xx_hal_i2s_ex.h)(0x65425596)
+I (inc\stm32f4xx_hal_iwdg.h)(0x65425579)
+I (inc\stm32f4xx_hal_pwr.h)(0x65425582)
+I (inc\stm32f4xx_hal_pwr_ex.h)(0x65425582)
+I (inc\stm32f4xx_hal_rng.h)(0x65425588)
+I (inc\stm32f4xx_hal_rtc.h)(0x6542558B)
+I (inc\stm32f4xx_hal_rtc_ex.h)(0x6542558B)
+I (inc\stm32f4xx_hal_sd.h)(0x65425590)
+I (inc\stm32f4xx_ll_sdmmc.h)(0x65425590)
+I (inc\stm32f4xx_hal_spi.h)(0x65425596)
+I (inc\stm32f4xx_hal_tim.h)(0x6542559B)
+I (inc\stm32f4xx_hal_tim_ex.h)(0x6542559B)
+I (inc\stm32f4xx_hal_uart.h)(0x654255A1)
+I (inc\stm32f4xx_hal_usart.h)(0x654255A3)
+I (inc\stm32f4xx_hal_irda.h)(0x65425577)
+I (inc\stm32f4xx_hal_smartcard.h)(0x65425592)
+I (inc\stm32f4xx_hal_wwdg.h)(0x654255AB)
+I (inc\stm32f4xx_hal_pcd.h)(0x654255A5)
+I (inc\stm32f4xx_ll_usb.h)(0x654255A5)
+I (inc\stm32f4xx_hal_pcd_ex.h)(0x654255A5)
+I (inc\stm32f4xx_hal_hcd.h)(0x654255A5)
+F (.\src\stm32f4xx_hal.c)(0x6542556D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER-o ./objects/stm32f4xx_hal.o -MMD)
+I (inc\stm32f4xx_hal.h)(0x6542556D)
+I (inc\stm32f4xx_hal_conf.h)(0x6542549C)
+I (inc\stm32f4xx_hal_rcc.h)(0x65425586)
+I (inc\stm32f4xx_hal_def.h)(0x6542556D)
+I (inc\stm32f4xx.h)(0x6542551C)
+I (inc\stm32f411xe.h)(0x6542551C)
+I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm4.h)(0x68E15839)
+I (inc\system_stm32f4xx.h)(0x6542551C)
+I (inc\Legacy\stm32_hal_legacy.h)(0x6542551E)
+I (inc\stm32f4xx_hal_rcc_ex.h)(0x65425586)
+I (inc\stm32f4xx_hal_exti.h)(0x65425566)
+I (inc\stm32f4xx_hal_gpio.h)(0x6542556F)
+I (inc\stm32f4xx_hal_gpio_ex.h)(0x6542556F)
+I (inc\stm32f4xx_hal_dma.h)(0x6542555D)
+I (inc\stm32f4xx_hal_dma_ex.h)(0x6542555D)
+I (inc\stm32f4xx_hal_cortex.h)(0x65425550)
+I (inc\stm32f4xx_hal_adc.h)(0x6542554A)
+I (inc\stm32f4xx_ll_adc.h)(0x6542554A)
+I (inc\stm32f4xx_hal_adc_ex.h)(0x6542554A)
+I (inc\stm32f4xx_hal_can.h)(0x6542554C)
+I (inc\stm32f4xx_hal_crc.h)(0x65425552)
+I (inc\stm32f4xx_hal_cryp.h)(0x65425554)
+I (inc\stm32f4xx_hal_dac.h)(0x65425556)
+I (inc\stm32f4xx_hal_dcmi.h)(0x65425559)
+I (inc\stm32f4xx_hal_eth.h)(0x65425563)
+I (inc\stm32f4xx_hal_flash.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ex.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ramfunc.h)(0x65425568)
+I (inc\stm32f4xx_hal_sram.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nor.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nand.h)(0x6542556A)
+I (inc\stm32f4xx_hal_pccard.h)(0x6542556A)
+I (inc\stm32f4xx_hal_hash.h)(0x65425571)
+I (inc\stm32f4xx_hal_i2c.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2c_ex.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2s.h)(0x65425596)
+I (inc\stm32f4xx_hal_i2s_ex.h)(0x65425596)
+I (inc\stm32f4xx_hal_iwdg.h)(0x65425579)
+I (inc\stm32f4xx_hal_pwr.h)(0x65425582)
+I (inc\stm32f4xx_hal_pwr_ex.h)(0x65425582)
+I (inc\stm32f4xx_hal_rng.h)(0x65425588)
+I (inc\stm32f4xx_hal_rtc.h)(0x6542558B)
+I (inc\stm32f4xx_hal_rtc_ex.h)(0x6542558B)
+I (inc\stm32f4xx_hal_sd.h)(0x65425590)
+I (inc\stm32f4xx_ll_sdmmc.h)(0x65425590)
+I (inc\stm32f4xx_hal_spi.h)(0x65425596)
+I (inc\stm32f4xx_hal_tim.h)(0x6542559B)
+I (inc\stm32f4xx_hal_tim_ex.h)(0x6542559B)
+I (inc\stm32f4xx_hal_uart.h)(0x654255A1)
+I (inc\stm32f4xx_hal_usart.h)(0x654255A3)
+I (inc\stm32f4xx_hal_irda.h)(0x65425577)
+I (inc\stm32f4xx_hal_smartcard.h)(0x65425592)
+I (inc\stm32f4xx_hal_wwdg.h)(0x654255AB)
+I (inc\stm32f4xx_hal_pcd.h)(0x654255A5)
+I (inc\stm32f4xx_ll_usb.h)(0x654255A5)
+I (inc\stm32f4xx_hal_pcd_ex.h)(0x654255A5)
+I (inc\stm32f4xx_hal_hcd.h)(0x654255A5)
+F (.\src\stm32f4xx_hal_gpio.c)(0x6542556F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER-o ./objects/stm32f4xx_hal_gpio.o -MMD)
+I (inc\stm32f4xx_hal.h)(0x6542556D)
+I (inc\stm32f4xx_hal_conf.h)(0x6542549C)
+I (inc\stm32f4xx_hal_rcc.h)(0x65425586)
+I (inc\stm32f4xx_hal_def.h)(0x6542556D)
+I (inc\stm32f4xx.h)(0x6542551C)
+I (inc\stm32f411xe.h)(0x6542551C)
+I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm4.h)(0x68E15839)
+I (inc\system_stm32f4xx.h)(0x6542551C)
+I (inc\Legacy\stm32_hal_legacy.h)(0x6542551E)
+I (inc\stm32f4xx_hal_rcc_ex.h)(0x65425586)
+I (inc\stm32f4xx_hal_exti.h)(0x65425566)
+I (inc\stm32f4xx_hal_gpio.h)(0x6542556F)
+I (inc\stm32f4xx_hal_gpio_ex.h)(0x6542556F)
+I (inc\stm32f4xx_hal_dma.h)(0x6542555D)
+I (inc\stm32f4xx_hal_dma_ex.h)(0x6542555D)
+I (inc\stm32f4xx_hal_cortex.h)(0x65425550)
+I (inc\stm32f4xx_hal_adc.h)(0x6542554A)
+I (inc\stm32f4xx_ll_adc.h)(0x6542554A)
+I (inc\stm32f4xx_hal_adc_ex.h)(0x6542554A)
+I (inc\stm32f4xx_hal_can.h)(0x6542554C)
+I (inc\stm32f4xx_hal_crc.h)(0x65425552)
+I (inc\stm32f4xx_hal_cryp.h)(0x65425554)
+I (inc\stm32f4xx_hal_dac.h)(0x65425556)
+I (inc\stm32f4xx_hal_dcmi.h)(0x65425559)
+I (inc\stm32f4xx_hal_eth.h)(0x65425563)
+I (inc\stm32f4xx_hal_flash.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ex.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ramfunc.h)(0x65425568)
+I (inc\stm32f4xx_hal_sram.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nor.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nand.h)(0x6542556A)
+I (inc\stm32f4xx_hal_pccard.h)(0x6542556A)
+I (inc\stm32f4xx_hal_hash.h)(0x65425571)
+I (inc\stm32f4xx_hal_i2c.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2c_ex.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2s.h)(0x65425596)
+I (inc\stm32f4xx_hal_i2s_ex.h)(0x65425596)
+I (inc\stm32f4xx_hal_iwdg.h)(0x65425579)
+I (inc\stm32f4xx_hal_pwr.h)(0x65425582)
+I (inc\stm32f4xx_hal_pwr_ex.h)(0x65425582)
+I (inc\stm32f4xx_hal_rng.h)(0x65425588)
+I (inc\stm32f4xx_hal_rtc.h)(0x6542558B)
+I (inc\stm32f4xx_hal_rtc_ex.h)(0x6542558B)
+I (inc\stm32f4xx_hal_sd.h)(0x65425590)
+I (inc\stm32f4xx_ll_sdmmc.h)(0x65425590)
+I (inc\stm32f4xx_hal_spi.h)(0x65425596)
+I (inc\stm32f4xx_hal_tim.h)(0x6542559B)
+I (inc\stm32f4xx_hal_tim_ex.h)(0x6542559B)
+I (inc\stm32f4xx_hal_uart.h)(0x654255A1)
+I (inc\stm32f4xx_hal_usart.h)(0x654255A3)
+I (inc\stm32f4xx_hal_irda.h)(0x65425577)
+I (inc\stm32f4xx_hal_smartcard.h)(0x65425592)
+I (inc\stm32f4xx_hal_wwdg.h)(0x654255AB)
+I (inc\stm32f4xx_hal_pcd.h)(0x654255A5)
+I (inc\stm32f4xx_ll_usb.h)(0x654255A5)
+I (inc\stm32f4xx_hal_pcd_ex.h)(0x654255A5)
+I (inc\stm32f4xx_hal_hcd.h)(0x654255A5)
+F (.\src\stm32f4xx_hal_rcc.c)(0x65425586)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER-o ./objects/stm32f4xx_hal_rcc.o -MMD)
+I (inc\stm32f4xx_hal.h)(0x6542556D)
+I (inc\stm32f4xx_hal_conf.h)(0x6542549C)
+I (inc\stm32f4xx_hal_rcc.h)(0x65425586)
+I (inc\stm32f4xx_hal_def.h)(0x6542556D)
+I (inc\stm32f4xx.h)(0x6542551C)
+I (inc\stm32f411xe.h)(0x6542551C)
+I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm4.h)(0x68E15839)
+I (inc\system_stm32f4xx.h)(0x6542551C)
+I (inc\Legacy\stm32_hal_legacy.h)(0x6542551E)
+I (inc\stm32f4xx_hal_rcc_ex.h)(0x65425586)
+I (inc\stm32f4xx_hal_exti.h)(0x65425566)
+I (inc\stm32f4xx_hal_gpio.h)(0x6542556F)
+I (inc\stm32f4xx_hal_gpio_ex.h)(0x6542556F)
+I (inc\stm32f4xx_hal_dma.h)(0x6542555D)
+I (inc\stm32f4xx_hal_dma_ex.h)(0x6542555D)
+I (inc\stm32f4xx_hal_cortex.h)(0x65425550)
+I (inc\stm32f4xx_hal_adc.h)(0x6542554A)
+I (inc\stm32f4xx_ll_adc.h)(0x6542554A)
+I (inc\stm32f4xx_hal_adc_ex.h)(0x6542554A)
+I (inc\stm32f4xx_hal_can.h)(0x6542554C)
+I (inc\stm32f4xx_hal_crc.h)(0x65425552)
+I (inc\stm32f4xx_hal_cryp.h)(0x65425554)
+I (inc\stm32f4xx_hal_dac.h)(0x65425556)
+I (inc\stm32f4xx_hal_dcmi.h)(0x65425559)
+I (inc\stm32f4xx_hal_eth.h)(0x65425563)
+I (inc\stm32f4xx_hal_flash.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ex.h)(0x65425568)
+I (inc\stm32f4xx_hal_flash_ramfunc.h)(0x65425568)
+I (inc\stm32f4xx_hal_sram.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nor.h)(0x6542556A)
+I (inc\stm32f4xx_hal_nand.h)(0x6542556A)
+I (inc\stm32f4xx_hal_pccard.h)(0x6542556A)
+I (inc\stm32f4xx_hal_hash.h)(0x65425571)
+I (inc\stm32f4xx_hal_i2c.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2c_ex.h)(0x65425574)
+I (inc\stm32f4xx_hal_i2s.h)(0x65425596)
+I (inc\stm32f4xx_hal_i2s_ex.h)(0x65425596)
+I (inc\stm32f4xx_hal_iwdg.h)(0x65425579)
+I (inc\stm32f4xx_hal_pwr.h)(0x65425582)
+I (inc\stm32f4xx_hal_pwr_ex.h)(0x65425582)
+I (inc\stm32f4xx_hal_rng.h)(0x65425588)
+I (inc\stm32f4xx_hal_rtc.h)(0x6542558B)
+I (inc\stm32f4xx_hal_rtc_ex.h)(0x6542558B)
+I (inc\stm32f4xx_hal_sd.h)(0x65425590)
+I (inc\stm32f4xx_ll_sdmmc.h)(0x65425590)
+I (inc\stm32f4xx_hal_spi.h)(0x65425596)
+I (inc\stm32f4xx_hal_tim.h)(0x6542559B)
+I (inc\stm32f4xx_hal_tim_ex.h)(0x6542559B)
+I (inc\stm32f4xx_hal_uart.h)(0x654255A1)
+I (inc\stm32f4xx_hal_usart.h)(0x654255A3)
+I (inc\stm32f4xx_hal_irda.h)(0x65425577)
+I (inc\stm32f4xx_hal_smartcard.h)(0x65425592)
+I (inc\stm32f4xx_hal_wwdg.h)(0x654255AB)
+I (inc\stm32f4xx_hal_pcd.h)(0x654255A5)
+I (inc\stm32f4xx_ll_usb.h)(0x654255A5)
+I (inc\stm32f4xx_hal_pcd_ex.h)(0x654255A5)
+I (inc\stm32f4xx_hal_hcd.h)(0x654255A5)
+F (.\src\stm32f4xx_hal_cortex.c)(0x65425550)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./inc-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER-o ./objects/stm32f4xx_hal_cortex.o -MMD)
 I (inc\stm32f4xx_hal.h)(0x6542556D)
 I (inc\stm32f4xx_hal_conf.h)(0x6542549C)
 I (inc\stm32f4xx_hal_rcc.h)(0x65425586)
